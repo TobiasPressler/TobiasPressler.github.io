@@ -8,6 +8,10 @@ html {
     float: left;
 }
 
+#top div {
+    color: white;
+}
+
 .cont {
     float: both;
     margin-left: 0px;
