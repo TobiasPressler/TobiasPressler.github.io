@@ -15,13 +15,16 @@ document.addEventListener("DOMContentLoaded", function () {
     VANTA.NET({
         el: "#one",
         mouseControls: true,
-        touchControls: false,
+        touchControls: true,
         minHeight: 200.00,
         minWidth: 200.00,
         scale: 1.00,
         scaleMobile: 1.00,
-        color: 0xf5f5f5,
-        backgroundColor: 0x13186b
+        color: 0x33a7c0,
+        backgroundColor: 0x221b1b,
+        points: 14.00,
+        maxDistance: 24.00,
+        spacing: 18.00
     })
 
 
