@@ -9,7 +9,8 @@ document.addEventListener("DOMContentLoaded", function () {
     $('#fullpage').fullpage({
         //options here
         autoScrolling: true,
-        scrollHorizontally: true
+        scrollHorizontally: true,
+        anchors: ['section1', 'section2', 'section3', 'section4']
     });
 
     VANTA.NET({
@@ -26,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
         maxDistance: 24.00,
         spacing: 18.00
     })
+
 
 
 });
