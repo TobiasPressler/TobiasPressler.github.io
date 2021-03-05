@@ -1,4 +1,5 @@
-import { faCode, faDesktop, faServer } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCode, faDesktop, faEnvelope, faServer } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 
@@ -49,6 +50,15 @@ class SecondPage extends Component {
               </ul>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="pt-5 pb-20">
+        <h1 className="rounded-md text-4xl font-bold mb-5">Contact</h1>
+        <div className="grid grid-cols-4">
+          <div></div>
+          <a href="mailto: pressler.tobias@gmail.com"><FontAwesomeIcon className="text-8xl" icon={faEnvelope} /></a>
+          <a href="https://github.com/TobiasPressler"><FontAwesomeIcon className="text-8xl" icon={faGithub} /></a>
+          <div></div>
         </div>
       </div>
     </div >;

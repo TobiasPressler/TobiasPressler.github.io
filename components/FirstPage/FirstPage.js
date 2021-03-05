@@ -10,7 +10,7 @@ class FirstPage extends Component {
       <div className="text-xl">
         <Typewriter
           options={{
-            strings: ['Full Stack Developer', 'Flutter App Developer', 'NodeJS Developer'],
+            strings: ['VueJS', 'React', 'NodeJS', 'Flutter', 'Angular', 'Python', 'C#'],
             autoStart: true,
             loop: true,
           }}
