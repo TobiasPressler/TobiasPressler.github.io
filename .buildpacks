@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 https://github.com/heroku/heroku-buildpack-nodejs
 https://github.com/dokku/buildpack-nginx.git
+=======
+https://github.com/dokku/buildpack-nginx.git
+>>>>>>> 88154331265c32c3ad1490c4350615c112a80905
