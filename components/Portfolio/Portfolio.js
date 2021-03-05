@@ -3,7 +3,6 @@ import { FullPage, Slide } from 'react-full-page';
 import Background from "../Background/Background";
 import FirstPage from "../FirstPage/FirstPage";
 import SecondPage from "../SecondPage/SecondPage";
-import ThirdPage from "../ThirdPage/ThirdPage";
 
 class Portfolio extends Component {
   constructor() {
@@ -21,9 +20,6 @@ class Portfolio extends Component {
       <Slide>
         <SecondPage />
       </Slide>
-      {/* <Slide>
-        <ThirdPage />
-      </Slide> */}
     </FullPage>;
   }
 }
